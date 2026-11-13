@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 - Page Not Found | VÉLURE Boutique • Tamil Nadu</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome 6 (All icons and arrows strictly use Font Awesome) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- AOS (Animate On Scroll) Library -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Project Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <style>
+    .error-hero {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 24px;
+      background: radial-gradient(circle at center, #23201E 0%, #121212 100%);
+      color: #FFFFFF;
+    }
+
+    .error-code {
+      font-family: var(--font-serif);
+      font-size: clamp(5rem, 15vw, 11rem);
+      font-weight: 700;
+      color: var(--gold-primary);
+      line-height: 1;
+      letter-spacing: -0.04em;
+      margin-bottom: 8px;
+      opacity: 0.85;
+    }
+
+    .error-heading {
+      font-family: var(--font-serif);
+      font-size: clamp(1.8rem, 4vw, 2.5rem);
+      margin-bottom: 16px;
+      font-weight: 600;
+    }
+
+    .error-message {
+      color: #CFC7BE;
+      font-size: 1rem;
+      max-width: 540px;
+      margin: 0 auto 36px;
+      line-height: 1.6;
+    }
+
+    .error-actions {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container header-inner" style="justify-content: center;">
+      <a href="index.html" class="brand-logo" style="text-align: center; align-items: center;">
+        <img src="assets/stackly-logo-dark.webp" alt="Stackly Logo" style="height: 38px; width: auto;" />
+      </a>
+    </div>
+  </header>
+
+  <!-- 404 Section -->
+  <main class="error-hero">
+    <div class="container">
+      <div class="error-code" data-aos="zoom-in" data-aos-duration="700">404</div>
+      <h1 class="error-heading" data-aos="fade-up" data-aos-delay="150">Page Not Found or Under Construction</h1>
+      <p class="error-message" data-aos="fade-up" data-aos-delay="250">
+        This section, newsletter subscription, cart, checkout, or account destination is currently redirecting to 404 as per preview guidelines. Click below to return to the active boutique homepage.
+      </p>
+      <div class="error-actions" data-aos="fade-up" data-aos-delay="350">
+        <a href="index.html" class="btn-primary">
+          <i class="fa-solid fa-arrow-left"></i> Return to Boutique Home
+        </a>
+        <a href="index.html#main-collection" class="btn-secondary">
+          <i class="fa-solid fa-bag-shopping"></i> Browse Collection
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <!-- Simple Footer -->
+  <footer class="site-footer" style="padding: 40px 0 24px; text-align: center;">
+    <div class="container">
+      <p style="font-size: 0.85rem; color: #8A8279;">&copy; 2026 Stackly. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    if (typeof AOS !== 'undefined') {
+      AOS.init({ duration: 750, once: true });
+    }
+  </script>
+
+</body>
+</html>
